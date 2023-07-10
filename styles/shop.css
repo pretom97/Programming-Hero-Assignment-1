@@ -1,0 +1,47 @@
+/* common shared styles */
+* {
+  font-family: "Lora", serif;
+  font-family: "Open Sans", sans-serif;
+}
+/* header related styles */
+.header {
+  background-color: rgba(229, 84, 115, 0.1);
+  margin: 0px;
+  max-width: 1900px;
+}
+.header {
+  display: flex;
+}
+.banner-image {
+  width: 400px;
+  height: 500px;
+  /* margin-top: 50px; */
+  padding: 50px 200px 0px 200px;
+}
+.banner {
+  padding: 100px 0px 0px 200px;
+}
+.banner-tittle {
+  width: 400px;
+  font-weight: 800;
+  color: #272727;
+  font-size: 40px;
+}
+.banner-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 20px;
+}
+.btn-primary {
+  border-radius: 8px;
+  background: #e55473;
+  padding: 20px 43px;
+  gap: 10px;
+  border: 0;
+  color: white;
+  margin-top: 20px;
+  font-size: 20px;
+}
