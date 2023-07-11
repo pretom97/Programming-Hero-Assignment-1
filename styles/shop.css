@@ -45,7 +45,43 @@
   margin-top: 20px;
   font-size: 20px;
 }
+
+/* .container {
+  display: contents;
+  /* flex-direction: column; */
+/* }  */
+
+/* img {
+  width: 100%;
+  height: auto;
+} */
+
+/* unvisited link */
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
 /* Our Featured Flowers related styles */
+.Our-Featured-Flowers {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
 .featured-tittle {
   text-align: center;
   color: #272727;
@@ -68,8 +104,10 @@
   justify-content: space-around;
   align-items: center;
   align-content: center;
-  max-width: 800px;
-  padding-left: 250px;
+  max-width: 1200px;
+  /* padding-left: 250px; */
+  margin: auto;
+  gap: 20px;
 }
 
 .featured-item {
@@ -78,29 +116,52 @@
   align-items: center;
   align-content: center;
   justify-content: center;
+  width: 100%;
+  height: 100%;
+  /* gap: 10px; */
+}
+
+.bg-image {
+  border-radius: 300px 300px 0px 0px;
+  width: 300px;
+  height: 370px;
+  /* align-items: center; */
+  /* justify-content: center;
+  align-content: center; */
+  /* margin: 40px 40px; */
+}
+
+.image1 {
+  background-color: rgba(167, 33, 98, 0.15);
+}
+.image2 {
+  background-color: rgba(5, 151, 160, 0.15);
+}
+.image3 {
+  background-color: rgba(71, 125, 17, 0.15);
 }
 
 .featured-image-one {
-  width: 250px;
-  background-color: rgba(167, 33, 98, 0.15);
-  border-radius: 300px 300px 0px 0px;
-  height: 320px;
-  margin-top: 50px;
+  width: 200px;
+  height: 300px;
+  margin: auto;
+  display: block;
+  margin-top: 70px;
 }
 
 .featured-image-two {
-  width: 250px;
-  height: 320px;
-  background-color: rgba(5, 151, 160, 0.15);
-  border-radius: 300px 300px 0px 0px;
-  margin-top: 50px;
+  width: 200px;
+  height: 300px;
+  margin: auto;
+  display: block;
+  margin-top: 70px;
 }
 .featured-image-three {
-  width: 250px;
-  height: 320px;
-  background-color: rgba(71, 125, 17, 0.15);
-  border-radius: 300px 300px 0px 0px;
-  margin-top: 50px;
+  width: 200px;
+  height: 300px;
+  margin: auto;
+  display: block;
+  margin-top: 70px;
 }
 
 .featured-item-tittle {
@@ -124,14 +185,17 @@
   align-content: center;
   padding: 100px 0px;
 }
+.hot-deal-writings {
+  margin-left: 200px;
+}
 
 .hot-deal-tittle {
   color: #272727;
-  font-size: 40px;
-  font-weight: 800;
+  font-size: 30px;
+  font-weight: 700;
   text-align: center;
   /* padding-top: 100px; */
-  padding-left: 150px;
+  /* padding-left: 150px; */
 }
 .off {
   color: #e55473;
@@ -143,7 +207,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  padding-left: 150px;
+  /* padding-left: 150px; */
 }
 .Sign-Up {
   border-radius: 8px;
@@ -160,30 +224,31 @@
 }
 .btn-signup {
   text-align: center;
-  padding-left: 150px;
+  /* padding-left: 150px; */
   margin-top: 30px;
 }
-.hot-deal-image {
-  width: 250px;
-  /* padding-top: 200px; */
-}
 .hot-deal-item {
-  padding-right: 200px;
+  /* padding-right: 200px; */
+  margin-right: 200px;
+}
+.hot-deal-image {
+  width: 100%;
+  /* padding-top: 200px; */
 }
 /* instagram related styles */
 .f-1 {
-  width: 200px;
+  width: 240px;
 }
 .f-2 {
-  width: 200px;
+  width: 240px;
   padding-left: 10px;
 }
 .f-3 {
-  width: 200px;
+  width: 240px;
   padding-left: 10px;
 }
 .f-4 {
-  width: 200px;
+  width: 240px;
   padding-left: 10px;
 }
 .instagram-item {
@@ -191,6 +256,11 @@
   text-align: center;
   padding-left: 10px;
   margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* gap: 15px; */
+  /* margin: auto; */
 }
 
 /* Get The Latest Deals styles */
@@ -221,6 +291,7 @@
   font-weight: 400;
   line-height: 30px;
   margin-bottom: 30px;
+  margin-top: -15px;
 }
 .email {
   width: 400px;
@@ -250,3 +321,4 @@
   line-height: normal;
   color: #ffffff;
 }
+
