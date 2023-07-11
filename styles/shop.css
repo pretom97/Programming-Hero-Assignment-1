@@ -105,7 +105,6 @@ a:active {
   align-items: center;
   align-content: center;
   max-width: 1200px;
-  /* padding-left: 250px; */
   margin: auto;
   gap: 20px;
 }
@@ -125,10 +124,6 @@ a:active {
   border-radius: 300px 300px 0px 0px;
   width: 300px;
   height: 370px;
-  /* align-items: center; */
-  /* justify-content: center;
-  align-content: center; */
-  /* margin: 40px 40px; */
 }
 
 .image1 {
@@ -172,6 +167,41 @@ a:active {
   font-weight: 800;
   margin-top: 10px;
 }
+/* optional section related styles */
+.optional {
+  display: flex;
+  margin: auto;
+  background-color: rgba(39, 39, 39, 0.05);
+  width: 950px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 320px;
+  margin-top: 80px;
+  padding-left: 30px;
+}
+.div-insede-optional {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  gap: 20px;
+}
+.image-inside-div-optional {
+  width: 70px;
+  flex-shrink: 0;
+  align-items: center;
+  margin: auto;
+}
+.optional-descrition {
+  margin: auto;
+  font-size: 15px;
+  color: rgba(39, 39, 39, 0.8);
+  text-align: center;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35px;
+}
 /* hot deal section styles */
 .Hot-Deal {
   display: flex;
@@ -194,8 +224,6 @@ a:active {
   font-size: 30px;
   font-weight: 700;
   text-align: center;
-  /* padding-top: 100px; */
-  /* padding-left: 150px; */
 }
 .off {
   color: #e55473;
@@ -207,7 +235,6 @@ a:active {
   font-size: 18px;
   font-weight: 400;
   line-height: 30px;
-  /* padding-left: 150px; */
 }
 .Sign-Up {
   border-radius: 8px;
@@ -228,12 +255,10 @@ a:active {
   margin-top: 30px;
 }
 .hot-deal-item {
-  /* padding-right: 200px; */
   margin-right: 200px;
 }
 .hot-deal-image {
   width: 100%;
-  /* padding-top: 200px; */
 }
 /* instagram related styles */
 .f-1 {
@@ -259,8 +284,6 @@ a:active {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  /* gap: 15px; */
-  /* margin: auto; */
 }
 
 /* Get The Latest Deals styles */
@@ -322,3 +345,35 @@ a:active {
   color: #ffffff;
 }
 
+/* footer related styles */
+.foot {
+  background-color: #111010;
+  flex-shrink: 0;
+  padding: 30px 20px;
+  margin-top: 50px;
+}
+.footer-tittle {
+  text-align: center;
+  color: #ffffff;
+  font-size: xx-large;
+}
+.span-color {
+  color: #e55473;
+}
+
+.footer-description {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: -30px;
+}
+.copy-right {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+}
